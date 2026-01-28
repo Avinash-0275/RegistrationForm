@@ -1,0 +1,50 @@
+
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Registration Form</h2>
+
+<form onsubmit="return validateForm()">
+
+Name:<br>
+<input type="text" id="name"><br>
+<span id="nameError" class="error"></span><br>
+
+Email:<br>
+<input type="text" id="email"><br>
+<span id="emailError" class="error"></span><br>
+
+Password:<br>
+<input type="password" id="password"><br>
+<span id="passwordError" class="error"></span><br>
+
+Confirm Password:<br>
+<input type="password" id="confirm"><br>
+<span id="confirmError" class="error"></span><br>
+
+Mobile Number:<br>
+<input type="text" id="mobile"><br>
+<span id="mobileError" class="error"></span><br>
+
+Gender:<br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female<br>
+<span id="genderError" class="error"></span><br>
+
+<input type="checkbox" id="terms">
+I accept Terms & Conditions<br>
+<span id="termsError" class="error"></span><br>
+
+<button type="submit">Register</button>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
